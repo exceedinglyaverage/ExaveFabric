@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "exavecraft",
+	"version": "${version}",
+	"name": "Exave Craft",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"ExaveJosh"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/exavecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.exave.exavecraft.ExaveCraft"
+		],
+		"fabric-datagen": [
+			"net.exave.exavecraft.ExaveCraftDataGenerator"
+		],
+		"client": [
+			"net.exave.exavecraft.ExaveCraftModClient"
+		]
+	},
+	"mixins": [
+		"exavecraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
