@@ -1,5 +1,6 @@
 package net.exave.exavecraft;
 
+import net.exave.exavecraft.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,8 +12,7 @@ public class ExaveCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 
-
-		LOGGER.info("Hello Fabric world!");
 	}
 }
