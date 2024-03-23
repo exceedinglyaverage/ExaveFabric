@@ -13,6 +13,12 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
 
+    //ingots and raw
+    public static Item RAW_TIN= registerItem("raw_tin",
+            new Item(new FabricItemSettings()));
+    public static Item TIN_INGOT= registerItem("tin_ingot",
+            new Item(new FabricItemSettings()));
+
     //coins
     public static Item IRON_COIN= registerItem("iron_coin",
             new Item(new FabricItemSettings()));
@@ -26,6 +32,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
+        entries.add(RAW_TIN);
+        entries.add(TIN_INGOT);
         entries.add(IRON_COIN);
         entries.add(COPPER_COIN);
         entries.add(GOLD_COIN);
