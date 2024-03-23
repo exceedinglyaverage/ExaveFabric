@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "exavecraft:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "exavecraft:tin_block"
+  }
+}

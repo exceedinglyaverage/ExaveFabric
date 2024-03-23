@@ -1,6 +1,7 @@
 package net.exave.exavecraft.items;
 
 import net.exave.exavecraft.ExaveCraft;
+import net.exave.exavecraft.blocks.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -31,21 +32,13 @@ public class ModItems {
     public static Item NETHERITE_COIN= registerItem("netherite_coin",
             new Item(new FabricItemSettings()));
 
-    private static void itemGroupIngredients(FabricItemGroupEntries entries) {
-        entries.add(RAW_TIN);
-        entries.add(TIN_INGOT);
-        entries.add(IRON_COIN);
-        entries.add(COPPER_COIN);
-        entries.add(GOLD_COIN);
-        entries.add(DIAMOND_COIN);
-        entries.add(NETHERITE_COIN);
-    }
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ExaveCraft.MOD_ID, name), item);
     }
     public static void registerModItems(){
         ExaveCraft.LOGGER.info("Registering Mod Items for " + ExaveCraft.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::itemGroupIngredients);
+
     }
 }

@@ -1,0 +1,39 @@
+package net.exave.exavecraft.items;
+
+import net.exave.exavecraft.ExaveCraft;
+import net.exave.exavecraft.blocks.ModBlocks;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+public class ModItemGroups {
+
+    public static final ItemGroup EXAVE_CRAFT_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ExaveCraft.MOD_ID, "exavecraft_item_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("exavecraft_item_group"))
+                    .icon(() -> new ItemStack(ModItems.RAW_TIN)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.RAW_TIN);
+                        entries.add(ModItems.TIN_INGOT);
+
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+                        entries.add(ModBlocks.TIN_BLOCK);
+                        entries.add(ModBlocks.RAW_TIN_BLOCK);
+
+                        entries.add(ModItems.IRON_COIN);
+                        entries.add(ModItems.COPPER_COIN);
+                        entries.add(ModItems.GOLD_COIN);
+                        entries.add(ModItems.DIAMOND_COIN);
+                        entries.add(ModItems.NETHERITE_COIN);
+
+
+                    }).build());
+
+    public static void registerItemGroups(){
+
+    }
+}

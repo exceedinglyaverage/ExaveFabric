@@ -1,8 +1,18 @@
 {
+  "exavecraft_item_group": "Exave Craft",
+
+  "item.exavecraft.raw_tin": "Raw Tin",
+  "item.exavecraft.tin_ingot": "Tin Ingot",
+
+
   "item.exavecraft.iron_coin": "Iron Coin",
   "item.exavecraft.copper_coin": "Copper Coin",
   "item.exavecraft.gold_coin": "Gold Coin",
   "item.exavecraft.diamond_coin": "Diamond Coin",
-  "item.exavecraft.netherite_coin": "Netherite Coin"
+  "item.exavecraft.netherite_coin": "Netherite Coin",
 
+  "block.exavecraft.raw_tin_block": "Block of Raw Tin",
+  "block.exavecraft.tin_block": "Block of Tin",
+  "block.exavecraft.tin_ore": "Tin Ore",
+  "block.exavecraft.deepslate_tin_ore": "Deepslate Tin Ore"
 }

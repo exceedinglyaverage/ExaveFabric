@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exavecraft:block/raw_tin_block"
+  }
+}
