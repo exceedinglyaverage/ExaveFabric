@@ -24,6 +24,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TIN_BLOCK);
                         entries.add(ModBlocks.RAW_TIN_BLOCK);
 
+                        entries.add(ModItems.BASIC_BANDAGE);
+                        entries.add(ModItems.QUALITY_BANDAGE);
+                        entries.add(ModItems.MEDICATED_BANDAGE);
+                        entries.add(ModItems.EMERGENCY_BANDAGE);
+
+
                         entries.add(ModItems.IRON_COIN);
                         entries.add(ModItems.COPPER_COIN);
                         entries.add(ModItems.GOLD_COIN);

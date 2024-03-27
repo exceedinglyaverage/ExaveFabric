@@ -4,6 +4,11 @@
   "item.exavecraft.raw_tin": "Raw Tin",
   "item.exavecraft.tin_ingot": "Tin Ingot",
 
+  "item.exavecraft.basic_bandage": "Basic Bandage",
+  "item.exavecraft.quality_bandage": "Quality Bandage",
+  "item.exavecraft.medicated_bandage": "Medicated Bandage",
+  "item.exavecraft.emergency_bandage": "Emergency Bandage",
+
 
   "item.exavecraft.iron_coin": "Iron Coin",
   "item.exavecraft.copper_coin": "Copper Coin",
