@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "exavecraft:block/redstone_pedestal_lit"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/furnace_top",
+    "side": "exavecraft:block/redstone_pedestal_off"
+  }
+}
