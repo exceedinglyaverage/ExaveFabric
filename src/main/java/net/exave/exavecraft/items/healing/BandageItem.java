@@ -1,8 +1,6 @@
 package net.exave.exavecraft.items.healing;
 
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -36,7 +34,7 @@ public class BandageItem extends Item {
             itemStack.decrement(1);
         }
 
-        return TypedActionResult.pass(user.getStackInHand(hand));
+        return TypedActionResult.success(user.getStackInHand(hand));
 
     }
     @Override
@@ -51,7 +49,7 @@ public class BandageItem extends Item {
             context.getStack().decrement(1);
         }
 
-        return ActionResult.PASS;
+        return ActionResult.SUCCESS;
     }
     @Override
     public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand) {
@@ -66,7 +64,7 @@ public class BandageItem extends Item {
             itemStack.decrement(1);
         }
 
-        return ActionResult.PASS;
+        return ActionResult.SUCCESS;
     }
 
 }

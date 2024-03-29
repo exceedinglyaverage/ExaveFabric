@@ -20,15 +20,20 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static Item TIN_INGOT= registerItem("tin_ingot",
             new Item(new FabricItemSettings()));
+
+    //food
+
+    public static Item MEDICAL_HERB= registerItem("medical_herb",
+            new Item(new FabricItemSettings().food(ModFoodComponents.MEDICAL_HERB)));
      //healing
      public static Item BASIC_BANDAGE= registerItem("basic_bandage",
-             new BandageItem(new FabricItemSettings().maxCount(8),5, 30));
+             new BandageItem(new FabricItemSettings().maxCount(8),5, 60));
     public static Item QUALITY_BANDAGE= registerItem("quality_bandage",
-            new BandageItem(new FabricItemSettings().maxCount(4),10, 45));
+            new BandageItem(new FabricItemSettings().maxCount(4),10, 90));
     public static Item MEDICATED_BANDAGE= registerItem("medicated_bandage",
-            new BandageItem(new FabricItemSettings().maxCount(2),15, 60));
+            new BandageItem(new FabricItemSettings().maxCount(2),15, 120));
     public static Item EMERGENCY_BANDAGE= registerItem("emergency_bandage",
-            new BandageItem(new FabricItemSettings().maxCount(1),20, 75));
+            new BandageItem(new FabricItemSettings().maxCount(1),20, 135));
     //coins
     public static Item IRON_COIN= registerItem("iron_coin",
             new Item(new FabricItemSettings()));

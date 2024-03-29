@@ -1,11 +1,13 @@
 package net.exave.exavecraft.blocks;
 
 import net.exave.exavecraft.ExaveCraft;
+import net.exave.exavecraft.blocks.redstone.RedstonePedestalBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.RedstoneBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -23,6 +25,9 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE), UniformIntProvider.create(3, 3)));
     public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(3, 3)));
+
+    public static final Block REDSTONE_PEDESTAL = registerBlock("redstone_pedestal",
+            new RedstonePedestalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

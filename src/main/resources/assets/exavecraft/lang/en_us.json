@@ -4,6 +4,8 @@
   "item.exavecraft.raw_tin": "Raw Tin",
   "item.exavecraft.tin_ingot": "Tin Ingot",
 
+  "item.exavecraft.medical_herb": "Medical Herb",
+
   "item.exavecraft.basic_bandage": "Basic Bandage",
   "item.exavecraft.quality_bandage": "Quality Bandage",
   "item.exavecraft.medicated_bandage": "Medicated Bandage",
@@ -19,5 +21,9 @@
   "block.exavecraft.raw_tin_block": "Block of Raw Tin",
   "block.exavecraft.tin_block": "Block of Tin",
   "block.exavecraft.tin_ore": "Tin Ore",
-  "block.exavecraft.deepslate_tin_ore": "Deepslate Tin Ore"
+  "block.exavecraft.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "block.exavecraft.redstone_pedestal": "Redstone Pedestal",
+
+  "tooltip.exavecraft.wip": "This Block is a Work in Progress"
 }

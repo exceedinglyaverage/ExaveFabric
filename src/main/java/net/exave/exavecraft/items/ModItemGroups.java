@@ -24,6 +24,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TIN_BLOCK);
                         entries.add(ModBlocks.RAW_TIN_BLOCK);
 
+                        entries.add(ModItems.MEDICAL_HERB);
+
+                        entries.add(ModBlocks.REDSTONE_PEDESTAL);
+
                         entries.add(ModItems.BASIC_BANDAGE);
                         entries.add(ModItems.QUALITY_BANDAGE);
                         entries.add(ModItems.MEDICATED_BANDAGE);
