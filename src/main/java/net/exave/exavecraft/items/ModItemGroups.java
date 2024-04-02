@@ -18,15 +18,32 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RAW_TIN)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModItems.TIN_INGOT);
+                        entries.add(ModItems.BRONZE_INGOT);
+                        entries.add(ModItems.STEEL_INGOT);
+
 
                         entries.add(ModBlocks.TIN_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                         entries.add(ModBlocks.TIN_BLOCK);
                         entries.add(ModBlocks.RAW_TIN_BLOCK);
 
+                        entries.add(ModBlocks.REDSTONE_PEDESTAL);
+
+
                         entries.add(ModItems.MEDICAL_HERB);
 
-                        entries.add(ModBlocks.REDSTONE_PEDESTAL);
+                        entries.add(ModItems.BRONZE_SWORD);
+                        entries.add(ModItems.BRONZE_SHOVEL);
+                        entries.add(ModItems.BRONZE_PICKAXE);
+                        entries.add(ModItems.BRONZE_AXE);
+                        entries.add(ModItems.BRONZE_HOE);
+
+                        entries.add(ModItems.STEEL_SWORD);
+                        entries.add(ModItems.STEEL_SHOVEL);
+                        entries.add(ModItems.STEEL_PICKAXE);
+                        entries.add(ModItems.STEEL_AXE);
+                        entries.add(ModItems.STEEL_HOE);
+
 
                         entries.add(ModItems.BASIC_BANDAGE);
                         entries.add(ModItems.QUALITY_BANDAGE);

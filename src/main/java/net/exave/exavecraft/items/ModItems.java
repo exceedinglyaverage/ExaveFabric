@@ -6,8 +6,7 @@ import net.exave.exavecraft.items.healing.BandageItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -20,6 +19,33 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static Item TIN_INGOT= registerItem("tin_ingot",
             new Item(new FabricItemSettings()));
+    public static Item BRONZE_INGOT= registerItem("bronze_ingot",
+            new Item(new FabricItemSettings()));
+    public static Item STEEL_INGOT= registerItem("steel_ingot",
+            new Item(new FabricItemSettings()));
+
+    //tools
+    public static Item BRONZE_SWORD= registerItem("bronze_sword",
+            new SwordItem(ModToolMaterial.BRONZE, 3, -2.4f, new FabricItemSettings()));
+    public static Item BRONZE_PICKAXE= registerItem("bronze_pickaxe",
+            new PickaxeItem(ModToolMaterial.BRONZE, 1, -2.8f, new FabricItemSettings()));
+    public static Item BRONZE_SHOVEL= registerItem("bronze_shovel",
+            new ShovelItem(ModToolMaterial.BRONZE, 1.5f, -3f, new FabricItemSettings()));
+    public static Item BRONZE_AXE= registerItem("bronze_axe",
+            new AxeItem(ModToolMaterial.BRONZE, 6, -3.1f, new FabricItemSettings()));
+    public static Item BRONZE_HOE= registerItem("bronze_hoe",
+            new HoeItem(ModToolMaterial.BRONZE, -2, -1, new FabricItemSettings()));
+    public static Item STEEL_SWORD= registerItem("steel_sword",
+            new SwordItem(ModToolMaterial.STEEL, 3, -2.4f, new FabricItemSettings()));
+    public static Item STEEL_PICKAXE= registerItem("steel_pickaxe",
+            new PickaxeItem(ModToolMaterial.STEEL, 1, -2.8f, new FabricItemSettings()));
+    public static Item STEEL_SHOVEL= registerItem("steel_shovel",
+            new ShovelItem(ModToolMaterial.STEEL, 1.5f, -3f, new FabricItemSettings()));
+    public static Item STEEL_AXE= registerItem("steel_axe",
+            new AxeItem(ModToolMaterial.STEEL, 5, -3, new FabricItemSettings()));
+    public static Item STEEL_HOE= registerItem("steel_hoe",
+            new HoeItem(ModToolMaterial.STEEL, -3, 0, new FabricItemSettings()));
+
 
     //food
 

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "F": {
+      "item": "minecraft:item_frame"
+    },
+    "T": {
+      "item": "exavecraft:tin_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "SFS",
+    "TRT",
+    "SRS"
+  ],
+  "result": {
+    "item": "exavecraft:redstone_pedestal"
+  },
+  "show_notification": true
+}
