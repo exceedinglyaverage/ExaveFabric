@@ -40,14 +40,12 @@ public class ModItemGroups {
                         entries.add(ModItems.DIAMOND_HAMMER);
                         entries.add(ModItems.NETHERITE_HAMMER);
 
-
                         entries.add(ModItems.BRONZE_SWORD);
                         entries.add(ModItems.BRONZE_SHOVEL);
                         entries.add(ModItems.BRONZE_PICKAXE);
                         entries.add(ModItems.BRONZE_AXE);
                         entries.add(ModItems.BRONZE_HOE);
                         entries.add(ModItems.BRONZE_HAMMER);
-
 
                         entries.add(ModItems.STEEL_SWORD);
                         entries.add(ModItems.STEEL_SHOVEL);
@@ -56,6 +54,15 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_HOE);
                         entries.add(ModItems.STEEL_HAMMER);
 
+                        entries.add(ModItems.BRONZE_HELMET);
+                        entries.add(ModItems.BRONZE_CHESTPLATE);
+                        entries.add(ModItems.BRONZE_LEGGINGS);
+                        entries.add(ModItems.BRONZE_BOOTS);
+
+                        entries.add(ModItems.STEEL_HELMET);
+                        entries.add(ModItems.STEEL_CHESTPLATE);
+                        entries.add(ModItems.STEEL_LEGGINGS);
+                        entries.add(ModItems.STEEL_BOOTS);
 
                         entries.add(ModItems.BASIC_BANDAGE);
                         entries.add(ModItems.QUALITY_BANDAGE);

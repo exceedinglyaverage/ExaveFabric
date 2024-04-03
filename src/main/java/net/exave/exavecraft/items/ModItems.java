@@ -64,6 +64,23 @@ public class ModItems {
     public static Item STEEL_HAMMER= registerItem("steel_hammer",
             new HammerItem(ModToolMaterial.STEEL_HEAVY, 4, -3, new FabricItemSettings().maxDamage(500)));
 
+    public static final Item BRONZE_HELMET = registerItem("bronze_helmet",
+            new ArmorItem(ModArmorMaterial.BRONZE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BRONZE_CHESTPLATE = registerItem("bronze_chestplate",
+            new ArmorItem(ModArmorMaterial.BRONZE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BRONZE_LEGGINGS = registerItem("bronze_leggings",
+            new ArmorItem(ModArmorMaterial.BRONZE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BRONZE_BOOTS = registerItem("bronze_boots",
+            new ArmorItem(ModArmorMaterial.BRONZE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item STEEL_HELMET = registerItem("steel_helmet",
+            new ArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item STEEL_CHESTPLATE = registerItem("steel_chestplate",
+            new ArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item STEEL_LEGGINGS = registerItem("steel_leggings",
+            new ArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item STEEL_BOOTS = registerItem("steel_boots",
+            new ArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     //food
 
