@@ -9,8 +9,8 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
-      //  public static final TagKey<Block> TIN_ORES =
-                //createBlockTag("tin_ore");
+        public static final TagKey<Block> HAMMER_MINEABLE =
+                createBlockTag("mineable/hammer_mineable");
 
         private static TagKey<Block> createBlockTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(ExaveCraft.MOD_ID, name));

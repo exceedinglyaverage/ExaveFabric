@@ -3,6 +3,7 @@ package net.exave.exavecraft.items;
 import net.exave.exavecraft.ExaveCraft;
 import net.exave.exavecraft.blocks.ModBlocks;
 import net.exave.exavecraft.items.healing.BandageItem;
+import net.exave.exavecraft.items.tools.HammerItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -25,6 +26,18 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     //tools
+    public static Item WOODEN_HAMMER= registerItem("wooden_hammer",
+            new HammerItem(ModToolMaterial.WOOD_HEAVY, 5, -3.2f, new FabricItemSettings()));
+    public static Item STONE_HAMMER= registerItem("stone_hammer",
+            new HammerItem(ModToolMaterial.STEEL_HEAVY, 6, -3.2f, new FabricItemSettings()));
+    public static Item GOLDEN_HAMMER= registerItem("golden_hammer",
+            new HammerItem(ModToolMaterial.GOLD_HEAVY, 5, -3, new FabricItemSettings()));
+    public static Item IRON_HAMMER= registerItem("iron_hammer",
+            new HammerItem(ModToolMaterial.IRON_HEAVY, 5, -3.1f, new FabricItemSettings()));
+    public static Item DIAMOND_HAMMER= registerItem("diamond_hammer",
+            new HammerItem(ModToolMaterial.DIAMOND_HEAVY, 4, -3, new FabricItemSettings()));
+    public static Item NETHERITE_HAMMER= registerItem("netherite_hammer",
+            new HammerItem(ModToolMaterial.NETHERITE_HEAVY, 5, -3, new FabricItemSettings().fireproof()));
     public static Item BRONZE_SWORD= registerItem("bronze_sword",
             new SwordItem(ModToolMaterial.BRONZE, 3, -2.4f, new FabricItemSettings()));
     public static Item BRONZE_PICKAXE= registerItem("bronze_pickaxe",
@@ -35,6 +48,9 @@ public class ModItems {
             new AxeItem(ModToolMaterial.BRONZE, 6, -3.1f, new FabricItemSettings()));
     public static Item BRONZE_HOE= registerItem("bronze_hoe",
             new HoeItem(ModToolMaterial.BRONZE, -2, -1, new FabricItemSettings()));
+
+    public static Item BRONZE_HAMMER= registerItem("bronze_hammer",
+            new AxeItem(ModToolMaterial.BRONZE_HEAVY, 5, -3.1f, new FabricItemSettings()));
     public static Item STEEL_SWORD= registerItem("steel_sword",
             new SwordItem(ModToolMaterial.STEEL, 3, -2.4f, new FabricItemSettings()));
     public static Item STEEL_PICKAXE= registerItem("steel_pickaxe",
@@ -45,6 +61,8 @@ public class ModItems {
             new AxeItem(ModToolMaterial.STEEL, 5, -3, new FabricItemSettings()));
     public static Item STEEL_HOE= registerItem("steel_hoe",
             new HoeItem(ModToolMaterial.STEEL, -3, 0, new FabricItemSettings()));
+    public static Item STEEL_HAMMER= registerItem("steel_hammer",
+            new AxeItem(ModToolMaterial.STEEL_HEAVY, 4, -3, new FabricItemSettings().maxDamage(500)));
 
 
     //food

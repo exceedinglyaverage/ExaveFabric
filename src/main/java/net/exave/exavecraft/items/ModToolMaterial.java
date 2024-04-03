@@ -11,8 +11,19 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial
 {
+    WOOD_HEAVY(MiningLevels.WOOD, 118, 4.0f, 0.0f, 15, () -> Ingredient.fromTag(ItemTags.PLANKS)),
+    STONE_HEAVY(MiningLevels.STONE, 261, 8.0f, 1.0f, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS)),
+    IRON_HEAVY(MiningLevels.IRON, 500, 12.0f, 2.0f, 14, () -> Ingredient.ofItems(Items.IRON_INGOT)),
+    DIAMOND_HEAVY(MiningLevels.DIAMOND, 3122, 16.0f, 3.0f, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
+    GOLD_HEAVY(MiningLevels.WOOD, 64, 24.0f, 0.0f, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
+    NETHERITE_HEAVY(MiningLevels.NETHERITE, 4062, 18.0f, 4.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
     BRONZE(MiningLevels.IRON, 131, 6.0f, 2.0f, 5, () -> Ingredient.ofItems(ModItems.BRONZE_INGOT)),
-    STEEL(MiningLevels.DIAMOND, 250, 8.0f, 3.0f, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
+    BRONZE_HEAVY(MiningLevels.IRON, 261, 12.0f, 2.0f, 5, () -> Ingredient.ofItems(ModItems.BRONZE_INGOT)),
+
+    STEEL(MiningLevels.DIAMOND, 250, 8.0f, 3.0f, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT)),
+    STEEL_HEAVY(MiningLevels.DIAMOND, 500, 16.0f, 3.0f, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
+
+
 
 
     private final int miningLevel;

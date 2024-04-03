@@ -32,17 +32,29 @@ public class ModItemGroups {
 
                         entries.add(ModItems.MEDICAL_HERB);
 
+
+                        entries.add(ModItems.WOODEN_HAMMER);
+                        entries.add(ModItems.STONE_HAMMER);
+                        entries.add(ModItems.IRON_HAMMER);
+                        entries.add(ModItems.DIAMOND_HAMMER);
+                        entries.add(ModItems.NETHERITE_HAMMER);
+                        entries.add(ModItems.GOLDEN_HAMMER);
+
+
                         entries.add(ModItems.BRONZE_SWORD);
                         entries.add(ModItems.BRONZE_SHOVEL);
                         entries.add(ModItems.BRONZE_PICKAXE);
                         entries.add(ModItems.BRONZE_AXE);
                         entries.add(ModItems.BRONZE_HOE);
+                        entries.add(ModItems.BRONZE_HAMMER);
+
 
                         entries.add(ModItems.STEEL_SWORD);
                         entries.add(ModItems.STEEL_SHOVEL);
                         entries.add(ModItems.STEEL_PICKAXE);
                         entries.add(ModItems.STEEL_AXE);
                         entries.add(ModItems.STEEL_HOE);
+                        entries.add(ModItems.STEEL_HAMMER);
 
 
                         entries.add(ModItems.BASIC_BANDAGE);
