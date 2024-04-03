@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "exavecraft:bronze_helmet",
+    "exavecraft:bronze_chestplate",
+    "exavecraft:bronze_leggings",
+    "exavecraft:bronze_boots",
+    "exavecraft:steel_helmet",
+    "exavecraft:steel_chestplate",
+    "exavecraft:steel_leggings",
+    "exavecraft:steel_boots"
+  ]
+}
