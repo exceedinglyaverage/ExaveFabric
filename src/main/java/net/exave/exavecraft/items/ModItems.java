@@ -50,7 +50,7 @@ public class ModItems {
             new HoeItem(ModToolMaterial.BRONZE, -2, -1, new FabricItemSettings()));
 
     public static Item BRONZE_HAMMER= registerItem("bronze_hammer",
-            new AxeItem(ModToolMaterial.BRONZE_HEAVY, 5, -3.1f, new FabricItemSettings()));
+            new HammerItem(ModToolMaterial.BRONZE_HEAVY, 5, -3.1f, new FabricItemSettings()));
     public static Item STEEL_SWORD= registerItem("steel_sword",
             new SwordItem(ModToolMaterial.STEEL, 3, -2.4f, new FabricItemSettings()));
     public static Item STEEL_PICKAXE= registerItem("steel_pickaxe",
@@ -62,7 +62,7 @@ public class ModItems {
     public static Item STEEL_HOE= registerItem("steel_hoe",
             new HoeItem(ModToolMaterial.STEEL, -3, 0, new FabricItemSettings()));
     public static Item STEEL_HAMMER= registerItem("steel_hammer",
-            new AxeItem(ModToolMaterial.STEEL_HEAVY, 4, -3, new FabricItemSettings().maxDamage(500)));
+            new HammerItem(ModToolMaterial.STEEL_HEAVY, 4, -3, new FabricItemSettings().maxDamage(500)));
 
 
     //food

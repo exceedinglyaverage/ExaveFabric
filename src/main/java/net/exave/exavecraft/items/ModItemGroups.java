@@ -36,9 +36,9 @@ public class ModItemGroups {
                         entries.add(ModItems.WOODEN_HAMMER);
                         entries.add(ModItems.STONE_HAMMER);
                         entries.add(ModItems.IRON_HAMMER);
+                        entries.add(ModItems.GOLDEN_HAMMER);
                         entries.add(ModItems.DIAMOND_HAMMER);
                         entries.add(ModItems.NETHERITE_HAMMER);
-                        entries.add(ModItems.GOLDEN_HAMMER);
 
 
                         entries.add(ModItems.BRONZE_SWORD);
