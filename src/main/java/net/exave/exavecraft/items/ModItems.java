@@ -29,7 +29,7 @@ public class ModItems {
     public static Item WOODEN_HAMMER= registerItem("wooden_hammer",
             new HammerItem(ModToolMaterial.WOOD_HEAVY, 5, -3.2f, new FabricItemSettings()));
     public static Item STONE_HAMMER= registerItem("stone_hammer",
-            new HammerItem(ModToolMaterial.STEEL_HEAVY, 6, -3.2f, new FabricItemSettings()));
+            new HammerItem(ModToolMaterial.STONE_HEAVY, 6, -3.2f, new FabricItemSettings()));
     public static Item GOLDEN_HAMMER= registerItem("golden_hammer",
             new HammerItem(ModToolMaterial.GOLD_HEAVY, 5, -3, new FabricItemSettings()));
     public static Item IRON_HAMMER= registerItem("iron_hammer",
@@ -37,7 +37,7 @@ public class ModItems {
     public static Item DIAMOND_HAMMER= registerItem("diamond_hammer",
             new HammerItem(ModToolMaterial.DIAMOND_HEAVY, 4, -3, new FabricItemSettings()));
     public static Item NETHERITE_HAMMER= registerItem("netherite_hammer",
-            new HammerItem(ModToolMaterial.NETHERITE_HEAVY, 5, -3, new FabricItemSettings().fireproof()));
+            new HammerItem(ModToolMaterial.NETHERITE_HEAVY, 4, -3, new FabricItemSettings().fireproof()));
     public static Item BRONZE_SWORD= registerItem("bronze_sword",
             new SwordItem(ModToolMaterial.BRONZE, 3, -2.4f, new FabricItemSettings()));
     public static Item BRONZE_PICKAXE= registerItem("bronze_pickaxe",

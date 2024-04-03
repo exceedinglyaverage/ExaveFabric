@@ -6,17 +6,27 @@
   "item.exavecraft.bronze_ingot": "Bronze Ingot",
   "item.exavecraft.steel_ingot": "Steel Ingot",
 
+
+  "item.exavecraft.wooden_hammer": "Wooden Hammer",
+  "item.exavecraft.stone_hammer": "Stone Hammer",
+  "item.exavecraft.iron_hammer": "Iron Hammer",
+  "item.exavecraft.golden_hammer": "Golden Hammer",
+  "item.exavecraft.diamond_hammer": "Diamond Hammer",
+  "item.exavecraft.netherite_hammer": "Netherite Hammer",
+
   "item.exavecraft.bronze_sword": "Bronze Sword",
   "item.exavecraft.bronze_axe": "Bronze Axe",
   "item.exavecraft.bronze_pickaxe": "Bronze Pickaxe",
   "item.exavecraft.bronze_shovel": "Bronze Shovel",
   "item.exavecraft.bronze_hoe": "Bronze Hoe",
+  "item.exavecraft.bronze_hammer": "Bronze Hammer",
 
   "item.exavecraft.steel_sword": "Steel Sword",
   "item.exavecraft.steel_axe": "Steel Axe",
   "item.exavecraft.steel_pickaxe": "Steel Pickaxe",
   "item.exavecraft.steel_shovel": "Steel Shovel",
   "item.exavecraft.steel_hoe": "Steel Hoe",
+  "item.exavecraft.steel_hammer": "Steel Hammer",
 
 
 

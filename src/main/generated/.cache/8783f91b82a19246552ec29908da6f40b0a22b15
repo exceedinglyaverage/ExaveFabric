@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-02T15:56:45.8681784	Exave Craft/Model Definitions
+// 1.20.1	2024-04-03T09:51:06.8879727	Exave Craft/Model Definitions
 207288e4ae705edb81b9fcd21a8320e9757d3140 assets\exavecraft\models\item\quality_bandage.json
 b44943d83c729fe45ab9ad92be4b78fe5d461c8e assets\exavecraft\models\item\bronze_sword.json
 dd30056da554273149b413d0da9e8892c92c0950 assets\exavecraft\models\item\steel_sword.json
@@ -7,12 +7,15 @@ dd30056da554273149b413d0da9e8892c92c0950 assets\exavecraft\models\item\steel_swo
 5334f0a4400873a5cc719f40ab9976884055d01e assets\exavecraft\models\item\deepslate_tin_ore.json
 91fd273a050767f806ae0c18ad56709a0ef5adda assets\exavecraft\blockstates\raw_tin_block.json
 d2baf56abe745a77f2f77d2368965ae60a03cec3 assets\exavecraft\models\item\medical_herb.json
+87db280cf0199047c887ae16214cbe5cef0c4468 assets\exavecraft\models\item\netherite_hammer.json
 5e9744c7a08ed2cfac135da8f6852bbb22c38c4e assets\exavecraft\blockstates\tin_ore.json
 a5c4b901adc7f67077208650fb13fa5ae51377c5 assets\exavecraft\models\item\tin_block.json
 78bd8d66179f71ebf893eedbdddc371b2b0ebd54 assets\exavecraft\models\block\raw_tin_block.json
+c28d72a33806facffd90234ea709b29f23aa2ab6 assets\exavecraft\models\item\stone_hammer.json
 b8c0fe43e42fe1e1688fc034c6d748014e541b1a assets\exavecraft\models\item\copper_coin.json
 3c21a94a9c058b71549e47889a6dadb32fffbdfe assets\exavecraft\models\item\bronze_shovel.json
 7d655184f902412181feff814a92f690a68fe27a assets\exavecraft\models\block\deepslate_tin_ore.json
+3d6ed1cecea4a9c2665d1d01d36dd7796ca55aa4 assets\exavecraft\models\item\wooden_hammer.json
 587c2e73242b19aaa8e6e41fa6c2e9873a2345ef assets\exavecraft\models\item\basic_bandage.json
 bb2dccf9c481f2d4f95a2082d977e0616d3829b4 assets\exavecraft\models\block\tin_ore.json
 43c42f507fc5892a3e44e4e998d75176fdf87fd5 assets\exavecraft\models\item\bronze_ingot.json
@@ -20,13 +23,18 @@ e1caa58d5fa90863976d1f4cf64bed55827c3517 assets\exavecraft\models\item\tin_ingot
 65bdcc7b7b8ed4fef339a59bcfa56749b0dd46e6 assets\exavecraft\models\item\gold_coin.json
 2db9ad6670a98f049c6fd26035436f3c280e7254 assets\exavecraft\models\item\bronze_hoe.json
 48936c47bd6e24c7dc5f580d58cb1c412ce4bbb4 assets\exavecraft\models\item\steel_shovel.json
-b3ecd24ef0473dc6e0be2fa71044c5bf4b8a6f9b assets\exavecraft\models\item\steel_hoe.json
-3363ee4f5c2e34a8df35afb6527802bf31ab3aa7 assets\exavecraft\models\item\steel_pickaxe.json
+02b3c83601d439568915a4ea211071775e063625 assets\exavecraft\models\item\bronze_hammer.json
+eeea9c2da01586999570cf5e8b7d57b8598fed9a assets\exavecraft\models\item\steel_hammer.json
 db14a0051afd6e1ee022bce8d756f91542dc1a76 assets\exavecraft\models\item\steel_axe.json
+3363ee4f5c2e34a8df35afb6527802bf31ab3aa7 assets\exavecraft\models\item\steel_pickaxe.json
+b3ecd24ef0473dc6e0be2fa71044c5bf4b8a6f9b assets\exavecraft\models\item\steel_hoe.json
 a990e18f334b5402eeab0428eb272119d3cefc12 assets\exavecraft\models\item\iron_coin.json
 1b38c0d747d77e38c13c45f8b6a2bca271ca3b8b assets\exavecraft\blockstates\tin_block.json
+dc4df281edf65f006870e88507d29b254f812ef0 assets\exavecraft\models\item\iron_hammer.json
+e56ee583c26d7ea52a6d50d9cc61b00b62072ed2 assets\exavecraft\models\item\diamond_hammer.json
 8956a5c7abd93547158b65d6ec8b079bfbd780d6 assets\exavecraft\models\item\tin_ore.json
 b26ff8d815700e9b359aa28d991f3b0f09470d5d assets\exavecraft\models\item\raw_tin.json
+e80f721aa505da9ed3165a664ed22aadb777f167 assets\exavecraft\models\item\golden_hammer.json
 d4be3947eb761cb08afb4bb5a5fd9fd7d4cfcdbe assets\exavecraft\blockstates\deepslate_tin_ore.json
 e4270f1d1627503f374fcc05221f7033c3b9cdd1 assets\exavecraft\models\item\emergency_bandage.json
 11295657198288a4771ee80233d0da427785da46 assets\exavecraft\models\item\diamond_coin.json
