@@ -27,7 +27,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(3, 3)));
 
     public static final Block REDSTONE_PEDESTAL = registerBlock("redstone_pedestal",
-            new RedstonePedestalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new RedstonePedestalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).luminance(state -> state.get(RedstonePedestalBlock.LIT) ? 4 : 0)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

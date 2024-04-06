@@ -1,6 +1,9 @@
 {
   "variants": {
-    "": {
+    "lit=false": {
+      "model": "exavecraft:block/redstone_pedestal_off"
+    },
+    "lit=true": {
       "model": "exavecraft:block/redstone_pedestal_lit"
     }
   }

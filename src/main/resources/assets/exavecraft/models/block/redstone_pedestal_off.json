@@ -2,6 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "bottom": "minecraft:block/furnace_top",
-    "side": "exavecraft:block/redstone_pedestal_off"
+    "side": "exavecraft:block/redstone_pedestal_side_off",
+    "top": "minecraft:block/item_frame"
   }
 }
