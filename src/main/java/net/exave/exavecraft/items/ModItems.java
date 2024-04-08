@@ -112,8 +112,37 @@ public class ModItems {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ExaveCraft.MOD_ID, name), item);
     }
+    private static void itemGroupOperator(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.REGEN_COAL_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_COAL_ORE);
+        entries.add(ModBlocks.REGEN_IRON_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_IRON_ORE);
+        entries.add(ModBlocks.REGEN_COPPER_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_COPPER_ORE);
+        entries.add(ModBlocks.REGEN_GOLD_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_GOLD_ORE);
+        entries.add(ModBlocks.REGEN_REDSTONE_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_REDSTONE_ORE);
+        entries.add(ModBlocks.REGEN_EMERALD_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_EMEARLD_ORE);
+        entries.add(ModBlocks.REGEN_LAPIS_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_LAPIS_ORE);
+        entries.add(ModBlocks.REGEN_DIAMOND_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_DIAMOND_ORE);
+        entries.add(ModBlocks.REGEN_NETHER_GOLD_ORE);
+        entries.add(ModBlocks.REGEN_NETHER_QUARTZ_ORE);
+        entries.add(ModBlocks.REGEN_TIN_ORE);
+        entries.add(ModBlocks.REGEN_DEEPSLATE_TIN_ORE);
+        entries.add(ModItems.IRON_COIN);
+        entries.add(ModItems.COPPER_COIN);
+        entries.add(ModItems.GOLD_COIN);
+        entries.add(ModItems.DIAMOND_COIN);
+        entries.add(ModItems.NETHERITE_COIN);
+    }
+
     public static void registerModItems(){
         ExaveCraft.LOGGER.info("Registering Mod Items for " + ExaveCraft.MOD_ID);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.OPERATOR).register(ModItems::itemGroupOperator);
 
     }
 }

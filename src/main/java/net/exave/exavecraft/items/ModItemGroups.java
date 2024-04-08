@@ -3,7 +3,9 @@ package net.exave.exavecraft.items;
 import net.exave.exavecraft.ExaveCraft;
 import net.exave.exavecraft.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -12,32 +14,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
+
     public static final ItemGroup EXAVE_CRAFT_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ExaveCraft.MOD_ID, "exavecraft_item_group"),
             FabricItemGroup.builder().displayName(Text.translatable("exavecraft_item_group"))
                     .icon(() -> new ItemStack(ModItems.RAW_TIN)).entries((displayContext, entries) -> {
 
 
-                        entries.add(ModBlocks.REGEN_COAL_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_COAL_ORE);
-                        entries.add(ModBlocks.REGEN_IRON_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_IRON_ORE);
-                        entries.add(ModBlocks.REGEN_COPPER_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_COPPER_ORE);
-                        entries.add(ModBlocks.REGEN_GOLD_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_GOLD_ORE);
-                        entries.add(ModBlocks.REGEN_REDSTONE_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_REDSTONE_ORE);
-                        entries.add(ModBlocks.REGEN_EMERALD_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_EMEARLD_ORE);
-                        entries.add(ModBlocks.REGEN_LAPIS_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_LAPIS_ORE);
-                        entries.add(ModBlocks.REGEN_DIAMOND_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_DIAMOND_ORE);
-                        entries.add(ModBlocks.REGEN_NETHER_GOLD_ORE);
-                        entries.add(ModBlocks.REGEN_NETHER_QUARTZ_ORE);
-                        entries.add(ModBlocks.REGEN_TIN_ORE);
-                        entries.add(ModBlocks.REGEN_DEEPSLATE_TIN_ORE);
+
 
 
                         entries.add(ModItems.RAW_TIN);
@@ -94,11 +78,7 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERGENCY_BANDAGE);
 
 
-                        entries.add(ModItems.IRON_COIN);
-                        entries.add(ModItems.COPPER_COIN);
-                        entries.add(ModItems.GOLD_COIN);
-                        entries.add(ModItems.DIAMOND_COIN);
-                        entries.add(ModItems.NETHERITE_COIN);
+
 
 
                     }).build());
