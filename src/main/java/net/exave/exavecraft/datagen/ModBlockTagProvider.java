@@ -86,14 +86,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_TIN_BLOCK,
                         ModBlocks.TIN_BLOCK,
                         ModBlocks.TIN_ORE,
-                        ModBlocks.DEEPSLATE_TIN_ORE,
-                        ModBlocks.REDSTONE_PEDESTAL);
+                        ModBlocks.DEEPSLATE_TIN_ORE
+                );
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RAW_TIN_BLOCK,
                         ModBlocks.TIN_BLOCK,
-                        ModBlocks.TIN_ORE,
-                        ModBlocks.DEEPSLATE_TIN_ORE);
+                        ModBlocks.TIN_ORE
+                        );
+
 
     }
 }

@@ -4,7 +4,6 @@
     "exavecraft:raw_tin_block",
     "exavecraft:tin_block",
     "exavecraft:tin_ore",
-    "exavecraft:deepslate_tin_ore",
-    "exavecraft:redstone_pedestal"
+    "exavecraft:deepslate_tin_ore"
   ]
 }

@@ -1,2 +1,7 @@
-// 1.20.1	2024-04-03T15:43:19.3955148	Exave Craft/Tags for minecraft:item
+// 1.20.1	2024-04-08T10:56:09.364092	Exave Craft/Tags for minecraft:item
 0979312e5b5bb8df265799d0ba6b2dbfb6fda6a5 data\minecraft\tags\items\trimmable_armor.json
+8f513054cc07a940aea85b0bd24435e10e50f26a data\minecraft\tags\items\shovels.json
+c002910ca64a69a07afd18b95db4e9a65762dd8d data\minecraft\tags\items\swords.json
+f0f61de1c40bac140c82274373aae399adb026fa data\minecraft\tags\items\axes.json
+5a3fdbe8152d5693aa41921a13cc875a64091b40 data\minecraft\tags\items\pickaxes.json
+7f19243dde91ad65e4cbf3875fe4e74fa8ccf20a data\minecraft\tags\items\hoes.json
