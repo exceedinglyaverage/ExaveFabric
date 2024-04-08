@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "depleted=false": {
+      "model": "minecraft:block/coal_ore"
+    },
+    "depleted=true": {
+      "model": "exavecraft:block/regen_coal_ore"
+    }
+  }
+}

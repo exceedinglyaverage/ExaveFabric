@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "depleted=false": {
+      "model": "minecraft:block/copper_ore"
+    },
+    "depleted=true": {
+      "model": "exavecraft:block/regen_copper_ore"
+    }
+  }
+}

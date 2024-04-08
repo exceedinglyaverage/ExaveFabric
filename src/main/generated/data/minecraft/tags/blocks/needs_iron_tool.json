@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "exavecraft:regen_redstone_ore",
+    "exavecraft:regen_deepslate_redstone_ore",
+    "exavecraft:regen_emerald_ore",
+    "exavecraft:regen_deepslate_emerald_ore",
+    "exavecraft:regen_diamond_ore",
+    "exavecraft:regen_deepslate_diamond_ore",
+    "exavecraft:regen_gold_ore",
+    "exavecraft:regen_deepslate_gold_ore"
+  ]
+}

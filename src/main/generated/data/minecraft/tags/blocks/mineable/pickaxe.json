@@ -4,6 +4,26 @@
     "exavecraft:raw_tin_block",
     "exavecraft:tin_block",
     "exavecraft:tin_ore",
-    "exavecraft:deepslate_tin_ore"
+    "exavecraft:deepslate_tin_ore",
+    "exavecraft:regen_coal_ore",
+    "exavecraft:regen_deepslate_coal_ore",
+    "exavecraft:regen_iron_ore",
+    "exavecraft:regen_deepslate_iron_ore",
+    "exavecraft:regen_copper_ore",
+    "exavecraft:regen_deepslate_copper_ore",
+    "exavecraft:regen_gold_ore",
+    "exavecraft:regen_deepslate_gold_ore",
+    "exavecraft:regen_redstone_ore",
+    "exavecraft:regen_deepslate_redstone_ore",
+    "exavecraft:regen_emerald_ore",
+    "exavecraft:regen_deepslate_emerald_ore",
+    "exavecraft:regen_lapis_ore",
+    "exavecraft:regen_deepslate_lapis_ore",
+    "exavecraft:regen_diamond_ore",
+    "exavecraft:regen_deepslate_diamond_ore",
+    "exavecraft:regen_nether_quartz_ore",
+    "exavecraft:regen_nether_gold_ore",
+    "exavecraft:regen_tin_ore",
+    "exavecraft:regen_deepslate_tin_ore"
   ]
 }

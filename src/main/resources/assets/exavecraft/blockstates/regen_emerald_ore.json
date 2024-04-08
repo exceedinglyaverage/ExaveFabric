@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "depleted=false": {
+      "model": "minecraft:block/emerald_ore"
+    },
+    "depleted=true": {
+      "model": "exavecraft:block/regen_emerald_ore"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "exavecraft:block/regen_deepslate_copper_ore"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "depleted=false": {
+      "model": "minecraft:block/deepslate_coal_ore"
+    },
+    "depleted=true": {
+      "model": "exavecraft:block/regen_deepslate_coal_ore"
+    }
+  }
+}

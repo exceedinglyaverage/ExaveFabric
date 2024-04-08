@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "depleted=false": {
+      "model": "exavecraft:block/tin_ore"
+    },
+    "depleted=true": {
+      "model": "exavecraft:block/regen_tin_ore"
+    }
+  }
+}

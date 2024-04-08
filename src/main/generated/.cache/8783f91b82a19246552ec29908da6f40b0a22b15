@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-08T10:56:09.3690906	Exave Craft/Model Definitions
+// 1.20.1	2024-04-08T14:38:27.5945546	Exave Craft/Model Definitions
 f1ccc5da3319bb565ab2f9d5d3c7e18ee4b10b8c assets\exavecraft\models\item\bronze_chestplate_diamond_trim.json
 207288e4ae705edb81b9fcd21a8320e9757d3140 assets\exavecraft\models\item\quality_bandage.json
 c8a7cdd495dacf4b5874f323e6e19c4c28778b4a assets\exavecraft\models\item\steel_leggings_quartz_trim.json
@@ -61,8 +61,8 @@ cef6433724f93122ffd448be8001c679014a27ca assets\exavecraft\models\item\bronze_le
 dd30056da554273149b413d0da9e8892c92c0950 assets\exavecraft\models\item\steel_sword.json
 2053789016a0b473fa582e1c02a0fb3a3d6b8515 assets\exavecraft\models\item\bronze_helmet_redstone_trim.json
 11010acb447dd5ed88500e8e5712e8ec87ea6e94 assets\exavecraft\models\item\bronze_helmet_copper_trim.json
-2e35478bb768e3a3ca7cea29cbdd156925997660 assets\exavecraft\models\item\medicated_bandage.json
 1964bf511dc749848449fd25ee050a3dc1ca569a assets\exavecraft\models\item\bronze_boots_gold_trim.json
+2e35478bb768e3a3ca7cea29cbdd156925997660 assets\exavecraft\models\item\medicated_bandage.json
 66ecfaa4b021c05301d2b4a47f6c859ea9e707c1 assets\exavecraft\models\item\bronze_leggings_copper_trim.json
 b967015b6a2c263a5376df2d45c6293649656d08 assets\exavecraft\models\item\bronze_leggings_amethyst_trim.json
 c384592c8311ad0fae9990df6f2c05242e211ada assets\exavecraft\models\item\steel_boots_diamond_trim.json
@@ -118,8 +118,8 @@ b73b582089c7f3210027079e449b33a3f99b11b2 assets\exavecraft\models\item\bronze_ch
 2a665dfb90fe713dd924df908caa4b3ddc3ed025 assets\exavecraft\models\item\steel_chestplate_lapis_trim.json
 02b3c83601d439568915a4ea211071775e063625 assets\exavecraft\models\item\bronze_hammer.json
 eeea9c2da01586999570cf5e8b7d57b8598fed9a assets\exavecraft\models\item\steel_hammer.json
-db14a0051afd6e1ee022bce8d756f91542dc1a76 assets\exavecraft\models\item\steel_axe.json
 3363ee4f5c2e34a8df35afb6527802bf31ab3aa7 assets\exavecraft\models\item\steel_pickaxe.json
+db14a0051afd6e1ee022bce8d756f91542dc1a76 assets\exavecraft\models\item\steel_axe.json
 c684d5dc43fcd98cdeecc1f8d9ea82f21ea9d80e assets\exavecraft\models\item\steel_boots_lapis_trim.json
 76ee9c2fccbfec71b01da8792164509496cb10f0 assets\exavecraft\models\item\steel_helmet_lapis_trim.json
 46e2f3f2442bd7829b861a84b45fa7012bcb1d1f assets\exavecraft\models\item\steel_leggings_redstone_trim.json

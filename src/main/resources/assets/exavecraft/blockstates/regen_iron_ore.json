@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "depleted=false": {
+      "model": "minecraft:block/iron_ore"
+    },
+    "depleted=true": {
+      "model": "exavecraft:block/regen_iron_ore_depleted"
+    }
+  }
+}

@@ -86,14 +86,54 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_TIN_BLOCK,
                         ModBlocks.TIN_BLOCK,
                         ModBlocks.TIN_ORE,
-                        ModBlocks.DEEPSLATE_TIN_ORE
+                        ModBlocks.DEEPSLATE_TIN_ORE,
+                        ModBlocks.REGEN_COAL_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_COAL_ORE,
+                        ModBlocks.REGEN_IRON_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_IRON_ORE,
+                        ModBlocks.REGEN_COPPER_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_COPPER_ORE,
+                        ModBlocks.REGEN_GOLD_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_GOLD_ORE,
+                        ModBlocks.REGEN_REDSTONE_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_REDSTONE_ORE,
+                        ModBlocks.REGEN_EMERALD_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_EMEARLD_ORE,
+                        ModBlocks.REGEN_LAPIS_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_LAPIS_ORE,
+                        ModBlocks.REGEN_DIAMOND_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_DIAMOND_ORE,
+                        ModBlocks.REGEN_NETHER_QUARTZ_ORE,
+                        ModBlocks.REGEN_NETHER_GOLD_ORE,
+                        ModBlocks.REGEN_TIN_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_TIN_ORE
+
+
                 );
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RAW_TIN_BLOCK,
                         ModBlocks.TIN_BLOCK,
-                        ModBlocks.TIN_ORE
+                        ModBlocks.TIN_ORE,
+                        ModBlocks.REGEN_IRON_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_IRON_ORE,
+                        ModBlocks.REGEN_COPPER_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_COPPER_ORE,
+                        ModBlocks.REGEN_TIN_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_TIN_ORE,
+                        ModBlocks.REGEN_LAPIS_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_LAPIS_ORE
                         );
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.REGEN_REDSTONE_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_REDSTONE_ORE,
+                        ModBlocks.REGEN_EMERALD_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_EMEARLD_ORE,
+                        ModBlocks.REGEN_DIAMOND_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_DIAMOND_ORE,
+                        ModBlocks.REGEN_GOLD_ORE,
+                        ModBlocks.REGEN_DEEPSLATE_GOLD_ORE
+                );
 
 
     }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "depleted=false": {
+      "model": "minecraft:block/redstone_ore"
+    },
+    "depleted=true": {
+      "model": "exavecraft:block/regen_redstone_ore"
+    }
+  }
+}
