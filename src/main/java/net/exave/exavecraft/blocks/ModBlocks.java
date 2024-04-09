@@ -1,6 +1,7 @@
 package net.exave.exavecraft.blocks;
 
 import net.exave.exavecraft.ExaveCraft;
+import net.exave.exavecraft.blocks.crops.MedicalHerbCropBlock;
 import net.exave.exavecraft.blocks.redstone.RedstonePedestalBlock;
 
 import net.exave.exavecraft.blocks.server.RegenOreBlock;
@@ -67,15 +68,24 @@ public class ModBlocks {
     public static final Block TIN_ORE = registerBlock("tin_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE), UniformIntProvider.create(3, 3)));
 
+    public static final Block MEDICAL_HERB_CROP = registerBlockWithoutItem("medical_herb_crop",
+            new MedicalHerbCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
 
     public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(3, 3)));
+
+
+
 
     public static final Block REDSTONE_PEDESTAL = registerBlock("redstone_pedestal",
             new RedstonePedestalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).luminance(state -> state.get(RedstonePedestalBlock.LIT) ? 4 : 0)));
 
 
 
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(ExaveCraft.MOD_ID, name), block);
+    }
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ExaveCraft.MOD_ID, name), block);

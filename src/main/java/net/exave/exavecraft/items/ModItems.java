@@ -83,6 +83,8 @@ public class ModItems {
 
 
     //food
+    public static Item MEDICAL_HERB_SEEDS= registerItem("medical_herb_seeds",
+            new AliasedBlockItem(ModBlocks.MEDICAL_HERB_CROP,new FabricItemSettings()));
 
     public static Item MEDICAL_HERB= registerItem("medical_herb",
             new Item(new FabricItemSettings().food(ModFoodComponents.MEDICAL_HERB)));

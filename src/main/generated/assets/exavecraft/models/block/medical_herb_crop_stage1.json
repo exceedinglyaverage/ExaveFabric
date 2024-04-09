@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "exavecraft:block/medical_herb_crop_stage1"
+  }
+}

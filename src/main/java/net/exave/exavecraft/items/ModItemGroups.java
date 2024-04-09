@@ -37,7 +37,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.REDSTONE_PEDESTAL);
 
-
+                        entries.add(ModItems.MEDICAL_HERB_SEEDS);
                         entries.add(ModItems.MEDICAL_HERB);
 
 

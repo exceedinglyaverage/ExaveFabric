@@ -3,6 +3,7 @@ package net.exave.exavecraft;
 import net.exave.exavecraft.blocks.ModBlocks;
 import net.exave.exavecraft.items.ModItemGroups;
 import net.exave.exavecraft.items.ModItems;
+import net.exave.exavecraft.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +19,8 @@ public class ExaveCraft implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuffs();
 
 	}
 }

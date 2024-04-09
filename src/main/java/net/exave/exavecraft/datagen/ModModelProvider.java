@@ -1,6 +1,7 @@
 package net.exave.exavecraft.datagen;
 
 import net.exave.exavecraft.blocks.ModBlocks;
+import net.exave.exavecraft.blocks.crops.MedicalHerbCropBlock;
 import net.exave.exavecraft.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -21,6 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TIN_ORE);
 
+        blockStateModelGenerator.registerCrop(ModBlocks.MEDICAL_HERB_CROP, MedicalHerbCropBlock.AGE, 0, 1, 2, 3, 4, 5);
 
     }
 
@@ -58,6 +60,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem)ModItems.STEEL_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem)ModItems.STEEL_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem)ModItems.STEEL_BOOTS));
+
 
         itemModelGenerator.register(ModItems.MEDICAL_HERB, Models.GENERATED);
         itemModelGenerator.register(ModItems.BASIC_BANDAGE, Models.GENERATED);
