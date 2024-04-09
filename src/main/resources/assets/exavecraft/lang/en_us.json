@@ -7,6 +7,8 @@
   "item.exavecraft.steel_ingot": "Steel Ingot",
 
 
+
+
   "item.exavecraft.wooden_hammer": "Wooden Hammer",
   "item.exavecraft.stone_hammer": "Stone Hammer",
   "item.exavecraft.iron_hammer": "Iron Hammer",
@@ -39,7 +41,7 @@
   "item.exavecraft.steel_boots": "Steel Boots",
 
 
-
+  "item.exavecraft.medical_herb_seeds": "Medical Herb Seeds",
   "item.exavecraft.medical_herb": "Medical Herb",
 
   "item.exavecraft.basic_bandage": "Basic Bandage",
@@ -56,8 +58,32 @@
 
   "block.exavecraft.raw_tin_block": "Block of Raw Tin",
   "block.exavecraft.tin_block": "Block of Tin",
+  "block.exavecraft.steel_block": "Block of Steel",
+  "block.exavecraft.bronze_block": "Block of Bronze",
   "block.exavecraft.tin_ore": "Tin Ore",
   "block.exavecraft.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "block.exavecraft.regen_coal_ore": "Coal Ore (Regen)",
+  "block.exavecraft.regen_deepslate_coal_ore": "Deepslate Coal Ore (Regen)",
+  "block.exavecraft.regen_iron_ore": "Iron Ore (Regen)",
+  "block.exavecraft.regen_deepslate_iron_ore": "Deepslate Iron Ore (Regen)",
+  "block.exavecraft.regen_copper_ore": "Coppper Ore (Regen)",
+  "block.exavecraft.regen_deepslate_copper_ore": "Deepslate Copper Ore (Regen)",
+  "block.exavecraft.regen_gold_ore": "Gold Ore (Regen)",
+  "block.exavecraft.regen_deepslate_gold_ore": "Deepslate Gold Ore (Regen)",
+  "block.exavecraft.regen_redstone_ore": "Redstone Ore (Regen)",
+  "block.exavecraft.regen_deepslate_redstone_ore": "Deepslate Redstone Ore (Regen)",
+  "block.exavecraft.regen_emerald_ore": "Emerald Ore (Regen)",
+  "block.exavecraft.regen_deepslate_emerald_ore": "Deepslate Emerald Ore (Regen)",
+  "block.exavecraft.regen_lapis_ore": "Lapis Ore (Regen)",
+  "block.exavecraft.regen_deepslate_lapis_ore": "Deepslate Lapis Ore (Regen)",
+  "block.exavecraft.regen_diamond_ore": "Diamond Ore (Regen)",
+  "block.exavecraft.regen_deepslate_diamond_ore": "Deepslate Diamond Ore (Regen)",
+  "block.exavecraft.regen_nether_gold_ore": "Nether Gold Ore (Regen)",
+  "block.exavecraft.regen_nether_quartz_ore": "Nether Quartz Ore (Regen)",
+  "block.exavecraft.regen_tin_ore": "Tin Ore (Regen)",
+  "block.exavecraft.regen_deepslate_tin_ore": "Deepslate Tin Ore (Regen)",
+  "block.exavecraft.medical_herb_crop": "Medical Herb Crop",
 
   "block.exavecraft.redstone_pedestal": "Redstone Pedestal",
 

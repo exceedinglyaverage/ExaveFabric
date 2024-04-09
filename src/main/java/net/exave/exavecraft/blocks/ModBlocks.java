@@ -21,8 +21,12 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block TIN_BLOCK = registerBlock("tin_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+    public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block STEEL_BLOCK = registerBlock("steel_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block REGEN_IRON_ORE = registerBlock("regen_iron_ore",
             new RegenOreBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE),UniformIntProvider.create(0, 0)));
     public static final Block REGEN_DEEPSLATE_IRON_ORE = registerBlock("regen_deepslate_iron_ore",

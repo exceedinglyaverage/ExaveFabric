@@ -1,6 +1,8 @@
-// 1.20.1	2024-04-09T12:33:24.8322787	Exave Craft/Block Loot Tables
+// 1.20.1	2024-04-09T13:31:28.8712322	Exave Craft/Block Loot Tables
+f1078a4bc017260d4c0828d8fdf151fce70e9b08 data\exavecraft\loot_tables\blocks\bronze_block.json
 a3828b18fb7881001fc4dc188914911bb50f01f3 data\exavecraft\loot_tables\blocks\medical_herb_crop.json
 87735603a7c523e26520dbf17b6e99d74dfa0d9f data\exavecraft\loot_tables\blocks\tin_ore.json
+a599201a237252c8d8423b4cc9710a43e3967a1b data\exavecraft\loot_tables\blocks\steel_block.json
 cb7e57ae86100f3650a7c795c1278afd3c25830b data\exavecraft\loot_tables\blocks\deepslate_tin_ore.json
 19b5b0f4bbd8730d9da013c196f1bd94fc5f3f0e data\exavecraft\loot_tables\blocks\raw_tin_block.json
 6f480d1d73b7f89c7a35f762286303aba84bd6cc data\exavecraft\loot_tables\blocks\tin_block.json

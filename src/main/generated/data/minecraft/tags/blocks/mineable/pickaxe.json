@@ -3,6 +3,8 @@
   "values": [
     "exavecraft:raw_tin_block",
     "exavecraft:tin_block",
+    "exavecraft:bronze_block",
+    "exavecraft:steel_block",
     "exavecraft:tin_ore",
     "exavecraft:deepslate_tin_ore",
     "exavecraft:regen_coal_ore",

@@ -22,6 +22,8 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.TIN_BLOCK);
         addDrop(ModBlocks.RAW_TIN_BLOCK);
+        addDrop(ModBlocks.BRONZE_BLOCK);
+        addDrop(ModBlocks.STEEL_BLOCK);
         addDrop(ModBlocks.REDSTONE_PEDESTAL);
 
 

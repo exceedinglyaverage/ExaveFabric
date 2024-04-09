@@ -85,6 +85,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.RAW_TIN_BLOCK,
                         ModBlocks.TIN_BLOCK,
+                        ModBlocks.BRONZE_BLOCK,
+                        ModBlocks.STEEL_BLOCK,
                         ModBlocks.TIN_ORE,
                         ModBlocks.DEEPSLATE_TIN_ORE,
                         ModBlocks.REGEN_COAL_ORE,
@@ -114,6 +116,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RAW_TIN_BLOCK,
                         ModBlocks.TIN_BLOCK,
+                        ModBlocks.BRONZE_BLOCK,
                         ModBlocks.TIN_ORE,
                         ModBlocks.REGEN_IRON_ORE,
                         ModBlocks.REGEN_DEEPSLATE_IRON_ORE,
@@ -132,7 +135,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.REGEN_DIAMOND_ORE,
                         ModBlocks.REGEN_DEEPSLATE_DIAMOND_ORE,
                         ModBlocks.REGEN_GOLD_ORE,
-                        ModBlocks.REGEN_DEEPSLATE_GOLD_ORE
+                        ModBlocks.REGEN_DEEPSLATE_GOLD_ORE,
+                        ModBlocks.STEEL_BLOCK
                 );
 
 
