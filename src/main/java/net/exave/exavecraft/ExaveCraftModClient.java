@@ -10,6 +10,11 @@ public class ExaveCraftModClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MEDICAL_HERB_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_WHEAT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_POTATO, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_CARROT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_BEETROOT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_MEDICAL_HERB, RenderLayer.getCutout());
 
 
 

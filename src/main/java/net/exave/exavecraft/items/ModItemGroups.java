@@ -22,6 +22,7 @@ public class ModItemGroups {
 
 
 
+
                         entries.add(ModBlocks.TIN_BLOCK);
                         entries.add(ModBlocks.BRONZE_BLOCK);
                         entries.add(ModBlocks.STEEL_BLOCK);
@@ -38,6 +39,14 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.REDSTONE_PEDESTAL);
 
+
+
+                        entries.add(ModBlocks.WILD_WHEAT);
+                        entries.add(ModBlocks.WILD_POTATO);
+                        entries.add(ModBlocks.WILD_CARROT);
+                        entries.add(ModBlocks.WILD_BEETROOT);
+
+                        entries.add(ModBlocks.WILD_MEDICAL_HERB);
                         entries.add(ModItems.MEDICAL_HERB_SEEDS);
                         entries.add(ModItems.MEDICAL_HERB);
 

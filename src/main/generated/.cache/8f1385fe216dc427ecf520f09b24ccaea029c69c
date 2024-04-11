@@ -1,5 +1,5 @@
-// 1.20.1	2024-04-09T13:31:28.8612331	Exave Craft/Tags for minecraft:block
+// 1.20.1	2024-04-11T12:12:50.7314554	Exave Craft/Tags for minecraft:block
 0f0a686d50729d5cfa39496234a1a5eff50aa011 data\minecraft\tags\blocks\needs_iron_tool.json
 f12e2242206e4260d54d302b935b2e18914eb949 data\exavecraft\tags\blocks\mineable\hammer_mineable.json
-b10b9cb399fef85b5adb422f2d0017b2ed2f8391 data\minecraft\tags\blocks\mineable\pickaxe.json
 3f0daa5afc637a3feb87a611d1a7994c13f2a529 data\minecraft\tags\blocks\needs_stone_tool.json
+b10b9cb399fef85b5adb422f2d0017b2ed2f8391 data\minecraft\tags\blocks\mineable\pickaxe.json

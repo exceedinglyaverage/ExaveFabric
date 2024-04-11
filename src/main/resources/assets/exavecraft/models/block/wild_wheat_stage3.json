@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "exavecraft:block/wild_wheat_stage3"
+  }
+}

@@ -2,9 +2,11 @@ package net.exave.exavecraft.blocks;
 
 import net.exave.exavecraft.ExaveCraft;
 import net.exave.exavecraft.blocks.crops.MedicalHerbCropBlock;
+import net.exave.exavecraft.blocks.crops.WildCropBlock;
 import net.exave.exavecraft.blocks.redstone.RedstonePedestalBlock;
 
 import net.exave.exavecraft.blocks.server.RegenOreBlock;
+import net.exave.exavecraft.items.ModItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -75,7 +77,16 @@ public class ModBlocks {
     public static final Block MEDICAL_HERB_CROP = registerBlockWithoutItem("medical_herb_crop",
             new MedicalHerbCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
-
+    public static final Block WILD_WHEAT = registerBlock("wild_wheat",
+            new WildCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT), 1));
+    public static final Block WILD_POTATO = registerBlock("wild_potatoes",
+            new WildCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT), 2));
+    public static final Block WILD_CARROT = registerBlock("wild_carrots",
+            new WildCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT), 3));
+    public static final Block WILD_BEETROOT = registerBlock("wild_beetroot",
+            new WildCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT), 4));
+    public static final Block WILD_MEDICAL_HERB = registerBlock("wild_medical_herb",
+            new WildCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT), 5));
     public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(3, 3)));
 

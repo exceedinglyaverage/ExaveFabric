@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "exavecraft:block/wild_carrot_stage0"
+    },
+    "age=1": {
+      "model": "exavecraft:block/wild_carrot_stage0"
+    },
+    "age=2": {
+      "model": "exavecraft:block/wild_carrot_stage1"
+    },
+    "age=3": {
+      "model": "exavecraft:block/wild_carrot_stage1"
+    },
+    "age=4": {
+      "model": "exavecraft:block/wild_carrot_stage1"
+    },
+    "age=5": {
+      "model": "exavecraft:block/wild_carrot_stage2"
+    },
+    "age=6": {
+      "model": "exavecraft:block/wild_carrot_stage2"
+    },
+    "age=7": {
+      "model": "exavecraft:block/wild_carrot_stage3"
+    }
+  }
+}
